@@ -1,0 +1,16 @@
+{
+    "name": "webtown/symfony2-db-reset-bundle",
+    "require": {
+        "kunstmaan/bundles-cms": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Gábor Harmat",
+            "email": "hgabka@gmail.com"
+        }
+    ],
+    "bin": [
+        "bin/symfony2-db-reset"
+    ],
+    "minimum-stability": "dev"
+}
