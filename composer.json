@@ -1,7 +1,12 @@
 {
     "name": "webtown/symfony2-db-reset-bundle",
-    "require": {
-        "kunstmaan/bundles-cms": "dev-master"
+    "require-dev": {
+        "symfony/symfony": "^2.3|^3.0",
+        "doctrine/orm": "~2.5.0",
+        "doctrine/dbal": "~2.5.0",
+        "doctrine/doctrine-bundle": "~1.4",
+        "doctrine/doctrine-fixtures-bundle": "~2.2",
+        "stof/doctrine-extensions-bundle": "~1.1"       
     },
     "authors": [
         {
@@ -10,7 +15,7 @@
         }
     ],
     "bin": [
-        "bin/symfony2-db-reset"
+        "bin/symfony2-db-reset.sh"
     ],
     "minimum-stability": "dev"
 }
